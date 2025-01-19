@@ -24,6 +24,7 @@ bone()
 pcolor(ms.distance_map().T)
 markers = ['o','s']
 colors = ['r','g']
+colorbar()
 for i,x in enumerate(X):
     w = ms.winner(x)
     plot(w[0]+0.5,
